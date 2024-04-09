@@ -30,7 +30,7 @@ class SensorApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //가로모드
+    //가로모드로 고정
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeLeft,
     ]);
